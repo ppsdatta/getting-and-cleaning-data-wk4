@@ -50,5 +50,6 @@ mean_total <- total %>%
 # Write out dataset
 
 write.table(mean_total, 
-            file = "tidydataset.txt")
+            file = "tidydataset.txt",
+            row.names = FALSE)
 
